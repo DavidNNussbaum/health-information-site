@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+require 'json'
+require 'pry'
+require_relative '../lib/healthinfo_api' 
+require_relative '../lib/cli'
+require_relative '../lib/parse'
+require_relative '../lib/responses'
+require_relative 'config/environment'
+
+
+require_relative '../config/environment'
+CLI.new.run
+
+ 
