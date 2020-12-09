@@ -1,0 +1,2 @@
+class Parsed_Content
+end
